@@ -3,8 +3,8 @@
 </div>
 
 <h3 align="center">
-    Flexoki Light Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
-</h3>
+    <a href="https://github.com/kepano/flexoki">Flexoki</a> Light Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
+</h3> 
 
 ## 👀 Preview
 
@@ -24,6 +24,13 @@ Add these lines to your `theme.toml` configuration file to use it:
 [flavor]
 use = "flexoki-light"
 ```
+## 🌙 Flexoki Dark?
+
+-> https://github.com/Reledia/flexoki.yazi
+
+## :accessibility: Disclaimer
+
+This is not a 1:1 port of Flexoki, contrast have been improved in some places for legibility purposes with the help of the <a href="https://www.myndex.com/APCA/">APCA contrast tool</a>.
 
 ## 📜 License
 
