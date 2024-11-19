@@ -3,10 +3,10 @@
 # : Manager {{{
 
 [manager]
-cwd = { fg = "#100F0F" }
+cwd = { fg = "#000000" }
 
 # Hovered
-hovered         = { fg = "#100F0F", bg = "#E6E4D9" }
+hovered         = { bg = "#f0f0f0", bold = true }
 preview_hovered = { underline = true }
 
 # Find
@@ -15,17 +15,17 @@ find_position = { fg = "#800042", bg = "reset", italic = true }
 
 # Marker
 marker_selected = { fg = "#66800B", bg = "#66800B" }
-marker_copied   = { fg = "#AD8301", bg = "#AD8301" }
+marker_copied   = { fg = "#f3d000", bg = "#f3d000" }
 marker_cut      = { fg = "#AF3029", bg = "#AF3029" }
 
 # Tab
-tab_active   = { fg = "#E6E4D9", bg = "#4385BE" }
-tab_inactive = { fg = "#4385BE", bg = "#DAD8CE" }
+tab_active   = { fg = "#000000", bg = "#ffffff" }
+tab_inactive = { fg = "#595959", bg = "#dfdfdf" }
 tab_width    = 1
 
 # Border
 border_symbol = "│"
-border_style  = { fg = "#CECDC3" }
+border_style  = { fg = "#9f9f9f" }
 
 # Highlighting
 syntect_theme = "~/.config/yazi/Catppuccin-macchiato.tmTheme"
@@ -38,21 +38,21 @@ syntect_theme = "~/.config/yazi/Catppuccin-macchiato.tmTheme"
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "#CECDC3", bg = "#CECDC3" }
+separator_style = { fg = "#e0e0e0", bg = "#e0e0e0" }
 
 # Mode
-mode_normal = { fg = "#FFFCF0", bg = "#205EA6", bold = true }
-mode_select = { fg = "#FFFCF0", bg = "#66800B", bold = true }
-mode_unset  = { fg = "#FFFCF0", bg = "#800042", bold = true }
+mode_normal = { fg = "#f3f3ff", bg = "#354fcf", bold = true }
+mode_select = { fg = "#ecf7ed", bg = "#316500", bold = true }
+mode_unset  = { fg = "#fff1f0", bg = "#972500", bold = true }
 
 # Progress
-progress_label  = { fg = "#100F0F", bold = true }
-progress_normal = { fg = "#4385BE", bg = "#100F0F" }
-progress_error  = { fg = "#AF3029", bg = "#100F0F" }
+progress_label  = { fg = "#000000", bold = true }
+progress_normal = { fg = "#4faa09", bg = "#8fef00" }
+progress_error  = { fg = "#fff1f0", bg = "#d00000" }
 
 # Permissions
 permissions_t = { fg = "#4385BE" }
-permissions_r = { fg = "#AD8301" }
+permissions_r = { fg = "#6f5500" }
 permissions_w = { fg = "#AF3029" }
 permissions_x = { fg = "#66800B" }
 permissions_s = { fg = "#575653" }
@@ -63,10 +63,10 @@ permissions_s = { fg = "#575653" }
 # : Input {{{
 
 [input]
-border   = { fg = "#6F6E69" }
-title    = {}
-value    = {}
-selected = { reversed = true }
+border   = { fg = "#9f9f9f" }
+title    = { fg = "#193668" }
+value    = { fg = "#000000" }
+selected = { fg = "#0031a9", bg = "#bfc9ff" }
 
 # : }}}
 
@@ -94,8 +94,8 @@ hovered = { underline = true }
 # : Which {{{
 
 [which]
-mask            = { bg = "#F2F0E5" }
-cand            = { fg = "#00736d" }
+mask            = { bg = "#f0f0f0" }
+cand            = { fg = "#006800" }
 rest            = { fg = "#5E409D" }
 desc            = { fg = "#800042" }
 separator       = "  "
@@ -107,11 +107,11 @@ separator_style = { fg = "#575653" }
 # : Help {{{
 
 [help]
-on      = { fg = "#800042" }
-run   = { fg = "#00736d" }
-desc    = { fg = "#575653" }
-hovered = { bg = "#E6E4D9", bold = true }
-footer  = { fg = "#100F0F", bg = "#E6E4D9"}
+on      = { fg = "#0031a9" }
+run   = { fg = "#006800" }
+desc    = { fg = "#8a290f" }
+hovered = { bg = "#f0f0f0", bold = true }
+footer  = { fg = "#000000", bg = "#f0f0f0"}
 
 # : }}}
 
@@ -125,8 +125,8 @@ rules = [
 	{ mime = "image/*", fg = "#5E409D" },
 
 	# Videos
-	{ mime = "video/*", fg = "#AD8301" },
-	{ mime = "audio/*", fg = "#AD8301" },
+	{ mime = "video/*", fg = "#6f5500" },
+	{ mime = "audio/*", fg = "#6f5500" },
 
 	# Archives
 	{ mime = "application/zip",             fg = "#800042" },
@@ -138,8 +138,8 @@ rules = [
 	{ mime = "application/x-rar",           fg = "#800042" },
 
 	# Fallback
-	{ name = "*", fg = "#100F0F" },
-	{ name = "*/", fg = "#00736d" }
+	{ name = "*", fg = "#000000" },
+	{ name = "*/", fg = "#00663f" }
 ]
 
 # : }}}
