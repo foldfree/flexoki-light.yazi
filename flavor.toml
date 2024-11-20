@@ -6,7 +6,7 @@
 cwd = { fg = "#000000" }
 
 # Hovered
-hovered         = { bg = "#f0f0f0", bold = true }
+hovered         = { bg = "#dbdbdb", bold = true }
 preview_hovered = { underline = true }
 
 # Find
@@ -110,8 +110,8 @@ separator_style = { fg = "#575653" }
 on      = { fg = "#0031a9" }
 run   = { fg = "#006800" }
 desc    = { fg = "#8a290f" }
-hovered = { bg = "#f0f0f0", bold = true }
-footer  = { fg = "#000000", bg = "#f0f0f0"}
+hovered = { bg = "#dbdbdb", bold = true }
+footer  = { fg = "#000000", bg = "#dbdbdb"}
 
 # : }}}
 
